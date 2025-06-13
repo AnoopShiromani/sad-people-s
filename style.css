@@ -7,11 +7,11 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f4f4f4;
+  background: #f80505;
 }
 
 nav {
-  background: #333;
+  background:#006994;
   color: #fff;
   padding: 1rem;
   display: flex;
@@ -31,10 +31,17 @@ nav {
   cursor: pointer;
 }
 
+.background{
+  background-color: #F4C2C2;
+}
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1rem;
+}
+
+.loginbg{
+  background-color: #E6E6FA;
 }
 
 .nav-links a {
@@ -45,7 +52,7 @@ nav {
 
 section {
   padding: 2rem;
-  background: white;
+  background: #F4C2C2;
   margin: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -77,4 +84,27 @@ input, button {
   .nav-toggle {
     display: block;
   }
+}
+
+.card{
+  height: 100vh;
+  background-color: bisque;
+}
+.navbar{
+  height: 54px;
+  background-color: aquamarine;
+}
+.club1{
+  height: 220px;
+  padding: 15px;
+  background-color: #F4C2C2;
+}
+
+.clubtext{
+  font-size: 38px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.clubpara{
+  font-family: 'Times New Roman', Times, serif;
 }

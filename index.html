@@ -16,28 +16,27 @@
     <div class="nav-toggle" id="navToggle">☰</div>
     <ul class="nav-links" id="navLinks">
       <li><a href="#about">About</a></li>
-      <li><a href="#clubs">Clubs</a></li>
-      <li><a href="#profile">Profile</a></li>
+      <li><a href="clubs.html">Clubs</a></li>
+      <li><a href="profile.html">Profile</a></li>
       <li><a href="#login">Login</a></li>
     </ul>
   </nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to our college club hub where you can explore and join various student-run organizations!</p>
-  </section>
-
+  
+ <div class="background">
   <section id="clubs">
     <h2>Our Clubs</h2>
     <ul class="club-list" id="clubList"></ul>
   </section>
+ </div>
 
   <section id="profile" class="hidden">
     <h2>User Profile</h2>
     <div id="user-info"></div>
   </section>
 
-  <section id="login">
+  <div class="loginbg d-flex flex-row justify-content-center">
+ <section id="login">
     <h2>Login</h2>
     <form id="loginForm">
       <label for="username">Username:</label>
@@ -45,8 +44,13 @@
       <label for="password">Password:</label>
       <input type="password" id="password" required />
       <button type="submit">Login</button>
-    </form>
+    </form> 
     <p id="login-status"></p>
+  </section>
+  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to our college club hub where you can explore and join various student-run organizations!</p>
   </section>
 
   <script src="script.js"></script>
