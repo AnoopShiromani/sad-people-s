@@ -53,8 +53,9 @@ body {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1581090700227-1e8b1dd9c1b5?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-  color: white;
+  background: url('bg1.jpg') no-repeat center center/cover;
+  background-size: cover;
+  color: rgb(255, 254, 254);
   text-align: center;
   padding: 6rem 2rem;
 }
